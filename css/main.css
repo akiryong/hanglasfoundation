@@ -1874,7 +1874,7 @@ html[data-useragent*="MSIE 10.0"] .home-scrolldown,
   text-align: center;
 }
 
-#pricing .about-how h1.intro-header::before {
+#projects .about-how h1.intro-header::before {
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -1945,7 +1945,7 @@ html[data-useragent*="MSIE 10.0"] .home-scrolldown,
 
 .about-how-content .step p {
   position: relative;
-  padding-left: 80px;
+  padding-left: 75px;
   font-size: 16px;
   line-height: 22px;
   text-align: left;
@@ -2083,17 +2083,17 @@ html[data-useragent*="MSIE 10.0"] .home-scrolldown,
 }
 
 /* ===================================================================
- *  12. pricing - (_layout.scss)
+ *  12. projects - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
 
-#pricing {
+#projects {
   background: #ebebeb;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-#pricing h1 {
+#projects h1 {
   margin-bottom: 3.6rem;
 }
 
@@ -2203,30 +2203,30 @@ html[data-useragent*="MSIE 10.0"] .home-scrolldown,
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * pricing 
+ * projects 
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1024px) {
-  #pricing .pricing-content > [class*="col"] {
+  #projects .pricing-content > [class*="col"] {
     width: 100% !important;
     float: none !important;
     clear: both !important;
     margin-left: 0;
     margin-right: 0;
   }
-  #pricing [class*="col"].pricing-intro {
+  #projects [class*="col"].pricing-intro {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     max-width: 650px;
   }
-  #pricing [class*="col"].pricing-intro h1::before {
+  #projects [class*="col"].pricing-intro h1::before {
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
   }
-  #pricing [class*="col"].pricing-table {
+  #projects [class*="col"].pricing-table {
     margin-top: 5.4rem;
     max-width: 650px;
     margin-left: auto;
@@ -2256,11 +2256,11 @@ html[data-useragent*="MSIE 10.0"] .home-scrolldown,
 }
 
 @media only screen and (max-width: 600px) {
-  #pricing [class*="col"].pricing-table {
+  #projects [class*="col"].pricing-table {
     max-width: 360px;
   }
-  #pricing .plan-top-part,
-  #pricing .plan-bottom-part {
+  #projects .plan-top-part,
+  #projects .plan-bottom-part {
     width: 100% !important;
     float: none !important;
     clear: both !important;
