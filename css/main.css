@@ -1772,7 +1772,7 @@ html[data-useragent*="MSIE 10.0"] .home-scrolldown,
 
 @media only screen and (max-width: 768px) {
   #home {
-    min-height: auto;
+    min-height: 240px;
   }
   .home-content-left h3 {
     font-size: 1.4rem;
@@ -2020,6 +2020,12 @@ html[data-useragent*="MSIE 10.0"] .home-scrolldown,
 }
 
 @media only screen and (max-width: 768px) {
+  #about {
+    padding-top: 60px;
+  }
+  .about-intro {
+    padding-bottom: 50px;
+  }
   .about-features .feature .icon i {
     font-size: 4.4rem;
   }
@@ -2235,6 +2241,10 @@ html[data-useragent*="MSIE 10.0"] .home-scrolldown,
 }
 
 @media only screen and (max-width: 768px) {
+  #projects {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
   .pricing-table .plan-wrap {
     width: 100% !important;
     float: none !important;
@@ -2536,6 +2546,10 @@ html[data-useragent*="MSIE 10.0"] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 768px) {
+  #download {
+    padding-top: 60px;
+  }
+
   #download .download-badges li a {
     width: 194px;
     height: 60px;
