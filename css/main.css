@@ -1405,8 +1405,8 @@ h1.intro-header::before {
 
 #home {
   width: 100%;
-  height: 586px;
-  min-height: 586px;
+  height: 386px;
+  min-height: 386px;
   background-color: transparent;
   position: relative;
   display: table;
