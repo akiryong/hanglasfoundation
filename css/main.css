@@ -2882,3 +2882,13 @@ footer ul a:visited {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* aki */
+a.list-5years-link {
+  color: #767676;
+  font-size: 16px;
+  display: block;
+}
+a.list-5years-link:hover {
+  text-decoration: underline;
+}
